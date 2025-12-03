@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# List all processes with hierarchy and user-oriented info
+ps aux --forest

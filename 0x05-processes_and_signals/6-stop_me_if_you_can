@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Alternative method to stop 4-to_infinity_and_beyond
+ps aux | grep 4-to_infinity_and_beyond | grep -v grep | awk '{print $2}' | xargs kill -9

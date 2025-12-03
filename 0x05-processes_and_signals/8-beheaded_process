@@ -1,0 +1,6 @@
+#!/bin/bash
+PID=$(pgrep -x "7-highlander")
+
+if [ -n "$PID" ]; then
+    kill -9 $PID
+fi
