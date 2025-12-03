@@ -1,33 +1,34 @@
 # 0x03-shell_variables_expansions
 
-Scripts to practice shell variables, environment variables, aliases, and arithmetic operations in Bash.
+This repository contains Bash scripts for practicing shell variables, environment variables, aliases, and arithmetic operations.
 
+## Scripts
 
-Create an alias `ls` with the value `rm *`.  
-Example: after sourcing the script, executing `ls` will remove all files in the current directory.
+- Creates an alias `ls` with the value `rm *`.  
+  Example: after sourcing the script, executing `ls` will remove all files in the current directory.
 
-Print `hello user`, where `user` is the current Linux user.  
+- Prints `hello user`, where `user` is the current Linux user.
 
-Add `/action` to the `PATH` environment variable, ensuring it is the last directory in the search path.  
+- Adds `/action` to the `PATH` environment variable, ensuring it is appended as the last directory in the search path.
 
-Count the number of directories listed in the `PATH` and print the total.  
+- Counts the number of directories listed in the `PATH` and prints the total.
 
-List all environment variables currently set in the shell session.  
+- Lists all environment variables currently set in the shell session.
 
-List all local variables, environment variables, and shell functions.  
+- Lists all local variables, environment variables, and shell functions.
 
-Create a new local variable:  
-- Name: `BEST`  
-- Value: `School`  
+- Creates a new local variable:  
+  - Name: `BEST`  
+  - Value: `School`
 
-Create a new global variable:  
-- Name: `BEST`  
-- Value: `School`  
+- Creates a new global variable:  
+  - Name: `BEST`  
+  - Value: `School`
 
-Print the result of adding `128` to the value stored in the environment variable `TRUEKNOWLEDGE`.  
+- Prints the result of adding `128` to the value stored in the environment variable `TRUEKNOWLEDGE`.
 
-Print the result of dividing the environment variable `POWER` by `DIVIDE`.  
+- Prints the result of dividing the environment variable `POWER` by `DIVIDE`.
 
-Print the result of `BREATH` raised to the power of `LOVE`.  
+- Prints the result of `BREATH` raised to the power of `LOVE`.
 
-Make scripts executable with `chmod +x <script>` and run with `./<script>`.
+- Makes scripts executable with `chmod +x <script>` and executes them using `./<script>`.
