@@ -1,26 +1,27 @@
 # 0x02-shell_redirections
 
-Scripts to practice Linux shell redirections and basic file handling.
+This repository contains Bash scripts for practicing Linux shell redirections and basic file handling operations.
 
+## Scripts
 
-Print "Hello, World" followed by a new line.
+- Prints "Hello, World" followed by a new line.
 
-Display a confused smiley: "(Ôo)'".
+- Displays a confused smiley: "(Ôo)'".
 
-Display the content of /etc/passwd.
+- Displays the content of `/etc/passwd`.
 
-Display the content of /etc/passwd and /etc/hosts.
+- Displays the content of both `/etc/passwd` and `/etc/hosts`.
 
-Display the last 10 lines of /etc/passwd.
+- Displays the last 10 lines of `/etc/passwd`.
 
-Display the first 10 lines of /etc/passwd.
+- Displays the first 10 lines of `/etc/passwd`.
 
-Display the third line of the file iacta (no sed allowed).
+- Displays the third line of the file `iacta` (without using `sed`).
 
-Create file '*\"Best School"\*$\?*****:)' containing "Best School".
+- Creates a file named `*\"Best School"\*$\?*****:)` containing the text "Best School".
 
-Write the result of `ls -la` into ls_cwd_content, overwrite if exists.
+- Writes the output of `ls -la` into `ls_cwd_content`, overwriting the file if it already exists.
 
-Duplicate the last line of the file iacta.
+- Duplicates the last line of the file `iacta`.
 
-Delete all regular files with a .js extension in current directory and subfolders.
+- Deletes all regular files with a `.js` extension in the current directory and all subdirectories.
