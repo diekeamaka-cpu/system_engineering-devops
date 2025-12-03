@@ -1,6 +1,6 @@
 # 0x05-processes_and_signals
 
-Bash scripts to explore Linux processes, signals, and process management techniques.
+This repository contains Bash scripts for exploring Linux processes, signals, and process management techniques.
 
 ## Scripts
 
@@ -28,7 +28,7 @@ Displays only the PID and process name of all processes containing `bash`.
 Runs an infinite loop displaying:  
 - Phrase: `To infinity and beyond`  
 - Pauses 2 seconds between each iteration  
-- Must be stopped manually with Ctrl+C
+- Must be stopped manually using Ctrl+C
 
 ### 5. Don't Stop Me Now! (5-dont_stop_me_now)
 Stops the `4-to_infinity_and_beyond` script programmatically using the `kill` command.  
@@ -39,9 +39,9 @@ Stops the `4-to_infinity_and_beyond` script using a method other than `kill` or 
 - Demonstrates alternative ways to control processes in Linux
 
 ### 7. Highlander (7-highlander)
-Runs an infinite loop like `4-to_infinity_and_beyond` but handles the SIGTERM signal:  
+Runs an infinite loop similar to `4-to_infinity_and_beyond` but handles the SIGTERM signal:  
 - Displays `I am invincible!!!` instead of terminating when receiving SIGTERM  
-- `67-stop_me_if_you_can` is a modified script to target `7-highlander` instead of `4-to_infinity_and_beyond`
+- `67-stop_me_if_you_can` is a modified script targeting `7-highlander` instead of `4-to_infinity_and_beyond`
 
 ### 8. Beheaded Process (8-beheaded_process)
 Forcibly kills the `7-highlander` process using the SIGKILL signal (signal 9):  
