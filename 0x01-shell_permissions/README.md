@@ -1,4 +1,4 @@
-#This repository contains Bash scripts designed to practice Linux file and directory permissions.
+# This repository contains Bash scripts designed to practice Linux file and directory permissions.
 
 ## Scripts
 
